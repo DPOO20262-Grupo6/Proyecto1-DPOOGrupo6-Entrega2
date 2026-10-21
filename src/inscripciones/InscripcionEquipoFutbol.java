@@ -1,6 +1,6 @@
-package modelo.inscripciones;
+package inscripciones;
 
-import modelo.usuarios.Socio;
+import usuarios.Socio;
 
 public class InscripcionEquipoFutbol extends InscripcionEquipo{
 	

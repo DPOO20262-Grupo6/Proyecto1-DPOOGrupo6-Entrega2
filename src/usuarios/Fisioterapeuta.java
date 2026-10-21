@@ -1,4 +1,4 @@
-package modelo.usuarios;
+package usuarios;
 
 public class Fisioterapeuta extends EmpleadoDelClub {
 

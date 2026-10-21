@@ -1,4 +1,4 @@
-package modelo.usuarios;
+package usuarios;
 
 public abstract class EmpleadoDelClub extends Usuario {
 	

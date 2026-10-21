@@ -1,7 +1,8 @@
-package modelo.inscripciones;
+package inscripciones;
 
-import modelo.usuarios.Socio;
 import java.io.Serializable;
+
+import usuarios.Socio;
 
 public class InscripcionDisciplinaIndividual implements Serializable {
 

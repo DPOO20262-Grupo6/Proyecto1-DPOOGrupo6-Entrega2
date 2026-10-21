@@ -1,9 +1,10 @@
-package modelo.deportesDeConjunto;
+package deportesDeConjunto;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
-import modelo.inscripciones.InscripcionEquipo;
+
+import inscripciones.InscripcionEquipo;
 
 public abstract class Equipo implements Serializable {
 	

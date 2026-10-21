@@ -1,4 +1,4 @@
-package modelo.deportesDeConjunto;
+package deportesDeConjunto;
 
 import java.io.Serializable;
 import java.time.LocalDate;

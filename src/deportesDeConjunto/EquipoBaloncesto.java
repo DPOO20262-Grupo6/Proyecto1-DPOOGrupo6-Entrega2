@@ -1,4 +1,4 @@
-package modelo.deportesDeConjunto;
+package deportesDeConjunto;
 
 public class EquipoBaloncesto extends Equipo {
 	

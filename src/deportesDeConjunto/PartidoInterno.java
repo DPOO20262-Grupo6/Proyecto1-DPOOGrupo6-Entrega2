@@ -1,4 +1,4 @@
-package modelo.deportesDeConjunto;
+package deportesDeConjunto;
 
 import java.time.LocalDate;
 
