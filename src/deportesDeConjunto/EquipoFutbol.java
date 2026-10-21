@@ -4,21 +4,20 @@ public class EquipoFutbol extends Equipo {
 	
 	private static final long serialVersionUID = 1L;
 	
-	private static final int minimoJugadoresHabilitados = 7;
+	private static final int MINIMO_JUGADORES_HABILITADOS = 7;
 	private static final String DEPORTE = "FUTBOL";
 
-	public EquipoFutbol(String categoria, String nombre, int cupoMaximoJugadores) {
-		super(categoria, nombre, cupoMaximoJugadores);
+	public EquipoFutbol(String nombre, String categoria, int cupoMaximoJugadores) {
+		super(nombre, categoria, cupoMaximoJugadores);
 	}
 
+	@Override
 	public int getMinimoJugadoresHabilitados() {
-		return minimoJugadoresHabilitados;
+		return MINIMO_JUGADORES_HABILITADOS;
 	}
 
-	public String getDEPORTE() {
+	@Override
+	public String getDeporte() {
 		return DEPORTE;
 	}
 }
-
-
-

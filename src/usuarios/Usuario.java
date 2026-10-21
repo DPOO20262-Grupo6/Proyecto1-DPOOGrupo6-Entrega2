@@ -10,7 +10,7 @@ public abstract class Usuario implements Serializable {
 	private String login;
 	private String password;
 	
-	public  Usuario(String nombre, String login, String password) {
+	public Usuario(String nombre, String login, String password) {
 		this.nombre = nombre;
 		this.login = login;
 		this.password = password;
@@ -44,4 +44,10 @@ public abstract class Usuario implements Serializable {
 		return this.login.equals(login) && this.password.equals(password);
 	}
 
+	public void acumularPuntos(int cantidad) { }
+	
+	public void redimirPuntos(int cantidad) { }
+	
+	public int getPuntosDeFidelidad() { return 0; }
 }
+
